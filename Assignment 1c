@@ -1,0 +1,25 @@
+#define variables
+A = input('state A\n')
+B = input('state B\n')
+
+#define addition function
+def add(A,B):
+  return float(A) + float(B) 
+
+#define subtraction function
+def subtract(A,B):
+  return float(A) - float(B) 
+
+D = input("add or subtract?")
+
+if D == 'add':
+  print ('A + B is', add(A,B))
+  
+elif D == 'subtract':
+  print ('A - B is', subtract (A,B))
+  
+elif D == 'exit':
+  exit()
+
+else:
+  print (' Error - please choose either add or subtract')
