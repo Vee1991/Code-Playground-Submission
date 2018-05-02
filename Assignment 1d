@@ -1,0 +1,34 @@
+#define variables
+A = input('state A\n')
+
+#allow user to end programme on typing 'exit'
+if A =='exit':
+  exit()
+
+B = input('state B\n')
+if B == 'exit':
+  exit()
+
+#define addition function
+def add(A,B):
+  return float(A) + float(B)
+
+#define subtraction function
+def subtract(A,B):
+  return float(A) - float(B) 
+
+  D = input("would you like to add or subtract?")
+  
+  if D == 'add':
+    print ('A + B is', add(A,B))
+    
+  elif D == 'subtract':
+    print ('A - B is', subtract (A,B))
+    
+#allow user to end programme on typing 'exit'    
+  elif D == 'exit':
+    exit()
+    
+    else:
+    print (' Error - please choose either add or subtract')
+      
