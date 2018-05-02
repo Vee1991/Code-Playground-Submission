@@ -1,0 +1,7 @@
+A = input('state A\n') 
+
+B = input('state B\n')
+
+C = float(A) + float(B)
+
+print ('A + B is', C)
